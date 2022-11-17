@@ -1,0 +1,12 @@
+package com.company;
+import java.util.*;
+public class LessThen150 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+        int z = sc.nextInt();
+        boolean result = x + y + z < 150;
+        System.out.println(result);
+    }
+}
