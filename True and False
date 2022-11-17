@@ -1,0 +1,13 @@
+package com.company;
+import java.util.*;
+public class TrueFalse {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+        int w = sc.nextInt();
+        int z = sc.nextInt();
+        boolean result = x * y == w * z;
+        System.out.println(result);
+    }
+}
